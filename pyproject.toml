@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "skypro-hw-27"
+version = "0.1.0"
+description = ""
+authors = ["Ruslan Tarutin <tarutin.ruslan99@gmail.com>"]
+readme = "README.md"
+packages = [{include = "skypro_hw_27"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.1"
+psycopg2 = "^2.9.3"
+Pillow = "^9.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
